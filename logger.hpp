@@ -1,9 +1,8 @@
 //
 //  logger.hpp
-//  test_cpp
+//  logger
 //
-//  Created by 남준현 on 2017. 11. 7..
-//  Copyright © 2017년 남준현. All rights reserved.
+//  Created by NamJunHyeon on 2017. 11. 7..
 //
 
 #pragma once
