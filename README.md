@@ -48,8 +48,13 @@ output:
 
 ## log types
 
-- debug, macro: LOGD(expr, ...);
-- info, macro: LOGI(expr, ...);
-- error, macro: LOGE(expr, ...);
-- warning, macro: LOGW(expr, ...);
-
+```cpp
+#include "logger.hpp"
+int main()
+{
+    LOGD("debug %d", 42);
+    LOGI("info %d %d", 42, 43);
+    LOGE("error");
+    LOGW("warning");
+}
+```
