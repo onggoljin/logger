@@ -40,6 +40,8 @@ public:
     enum class type { console, file, buffer };
     enum class level { info, error, debug, warning };
     
+    logger() = delete;
+    
     static void activate_console_logger() { enable_logger(logger::type::console); }
     static void inactivate_console_logger() { disable_logger(logger::type::console); }
     
